@@ -1,0 +1,38 @@
+{
+  "name": "mongo-backup",
+  "description": "Creates Mongo Dump From Node JS",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sundarrajan K",
+    "email": "rajni.sundar@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Sundarrajan K",
+      "email": "rajni.sundar@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "node-fs": "^0.1.7",
+    "sys": "0.0.1"
+  },
+  "keywords": [
+    "mongodump",
+    "mongobackup",
+    "mongo",
+    "mongodb",
+    "export",
+    "backup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/visionmedia/express"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/visionmedia/express",
+  "_id": "mongoDump@1.0.0"
+}
