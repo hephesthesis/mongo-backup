@@ -2,15 +2,9 @@
   "name": "mongo-backup",
   "description": "Creates Mongo Dump From Node JS",
   "version": "1.0.0",
-  "author": {
-    "name": "Sundarrajan K",
-    "email": "rajni.sundar@gmail.com"
-  },
+  "author": "Sundarrajan K <rajni.sundar@gmail.com>",
   "contributors": [
-    {
-      "name": "Sundarrajan K",
-      "email": "rajni.sundar@gmail.com"
-    }
+    "Sundarrajan K <rajni.sundar@gmail.com>"
   ],
   "dependencies": {
     "node-fs": "^0.1.7",
@@ -26,13 +20,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/visionmedia/express"
+    "url": "https://github.com/hephesthesis/mongo-backup"
   },
   "main": "server.js",
   "engines": {
     "node": ">= 0.8.0"
   },
-  "readmeFilename": "README.md",
-  "homepage": "https://github.com/visionmedia/express",
-  "_id": "mongoDump@1.0.0"
+  "homepage": "https://github.com/hephesthesis/mongo-backup",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hephesthesis/mongo-backup/issues"
+  },
+  "devDependencies": {},
+  "license": "ISC"
 }
